@@ -15,7 +15,7 @@
         </el-form-item>
         <!--密码-->
         <el-form-item prop="password">
-          <el-input v-model="loginForm.password" prefix-icon="el-icon-view" type="password"></el-input>
+          <el-input v-model="loginForm.password" prefix-icon="el-icon-lock" type="password"></el-input>
         </el-form-item>
         <!--按钮-->
         <el-form-item class="btns">
@@ -33,7 +33,7 @@
       return {
         //这是登录表单的数据绑定对象
         loginForm: {
-          username: '张三',
+          username: 'admin',
           password: '123456'
         },
         //这是表单验证的规则对象
